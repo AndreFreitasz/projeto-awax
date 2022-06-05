@@ -233,3 +233,125 @@ CSS DE ÁREAS ESPECÍFICAS
     width: 450px;
     box-shadow: 0px 5px 10px #333;
 }
+
+
+
+
+.section-services {
+    display: flex;
+}
+
+.section-service {
+    flex: 1;
+    text-align: center;
+    border-right: 2px solid #333;
+    padding: 15px;
+}
+
+.section-service h4 {
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.section-service p {
+    color: rgb(167, 165, 165);
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.section-service:first-child {
+    border-left: 2px solid #333;
+}
+
+
+
+
+.section-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-projects--filters {
+    border: 1px solid rgb(200, 197, 197);
+    background-color: rgba(221, 219, 219, 0.446);
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.section-projects--filters ul,
+.section-projects--filters li {
+    list-style-type: none;
+}
+
+.section-projects--filters li {
+    display: inline-block;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid rgb(200, 197, 197);
+    border-bottom: 3px solid rgba(221, 219, 219, 0.446);
+    cursor: pointer;
+}
+
+.section-projects--filters li:hover,
+.section-projects--filters .active {
+    border-bottom: 3px solid #B28756;
+}
+
+.section-projects--filters li:first-child {
+    border-left: none;
+}
+
+.section-projects--photos {
+    width: 100vw;
+    max-width: 1340px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.section-projects--photo {
+    width: 280px;
+}
+
+.section-projects--photoarea {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+
+.section-projects--photoarea img {
+    width: inherit;
+    height: inherit;
+}
+
+.section-projects--photoinfo {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width:inherit;
+    height: inherit;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+.section-projects--photoinfo h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.section-projects--photoinfo p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section-projects--photoarea:hover .section-projects--photoinfo {
+    display:flex;
+}
