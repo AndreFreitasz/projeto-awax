@@ -536,6 +536,7 @@ CSS DE ÁREAS ESPECÍFICAS
 .parceiros {
     width: 100vw;
     border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     display: flex;
     justify-content: center;
     padding: 30px;
@@ -553,4 +554,102 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-empresa img {
     width: 80px;
     height: auto;
+}
+
+.price {
+    width: 100vw;
+    height: auto;
+    background-color: rgba(229, 228, 228, 0.741);
+    border-bottom: 1px solid #ccc;
+}
+
+.section-price {
+    display: flex;
+}
+
+.section-price--item {
+    background-color: #fff;
+    margin-right: 20px;
+    text-align: center;
+    flex: 1 1 0%;
+    padding: 20px;
+}
+
+.section-price--item-name {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section-price--item-value {
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+.section-price--item-period {
+    font-size: 12px;
+    color: #999;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.section-price--item-vantages {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.btn-black {
+    background-color: rgb(52, 52, 52)
+}
+
+.section-premium {
+    display: flex;
+    max-width: 1340px;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.section-premium--box {
+    flex: 1;
+    text-align: right;
+}
+
+.section-premium--textarea {
+    flex: 1;
+}
+
+.section-premium--item {
+    display: flex;
+}
+
+.section-premium--item img {
+    width: 35px;
+    height: 30px;
+}
+
+.section-premium--item div {
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.section-premium--item div h4 {
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-bottom: 6px;
+}
+
+.section-premium--item div p {
+    color: #999;
+    line-height: 25px;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.section-premium--item div li {
+    list-style-type:disc;
+    text-transform: uppercase;
+    color: #999;
+    margin-left: 20px;
+    line-height: 25px;
 }
